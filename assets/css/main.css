@@ -1,10 +1,12 @@
-.name {
-  text-align: center;
+.wrapper {
+  width: 1500px;
 }
 
 .name {
+  text-align: center;
+  margin-top: 4rem;
   font-family: 'Roboto', sans-serif;
-  font-size: 3rem;
+  font-size: 3.5rem;
 }
 
 .bullet-points {
@@ -21,7 +23,7 @@
 }
 
 .bullet {
-  margin: 0 1.5% 0 1.5%;
+  margin: 0 1% 0 1%;
   font-weight: 500;
 }
 
@@ -31,28 +33,29 @@
 }
 
 .contact img {
-  margin: 0 5px 0 5px;
+  margin-right: 5px;
+}
+
+.seperator {
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .contact div {
   font-family: 'Open Sans', sans-serif;
-  font-size: 0.85rem;
+  font-size: 0.75rem;
 }
 
-.seperator {
-  margin: 0 1% 0 1%;
-  font-weight: 800;
-}
-
-.about-me {
-  margin-left: 15%;
+.section {
+  margin-left: 7%;
+  margin-right: 5%;
 }
 
 .header {
   color: #275ce2;
   font-family: 'Lato', sans-serif;
   font-size: 2rem;
-  margin: 2% 0 2% 0;
+  margin: 2% 0 1% 0;
 }
 
 .header > span {
@@ -64,12 +67,45 @@
   content: '';
   position: absolute;
   top: 75%;
-  width: 9999px;
+  width: 700px;
   height: 2px;
   background: rgba(65, 63, 63, 0.6);
 }
 
 .header > span:after {
   left: 100%;
-  margin-left: 15px;
+  margin-left: 25px;
+}
+
+.skills {
+  display: flex;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.skill-header {
+  color: #000000;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.4rem;
+}
+
+.skill-list {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.4rem;
+  margin-left: 3.5rem;
+}
+
+.first-skill {
+  margin-right: 10px;
+}
+
+.skill {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.skill-bullet {
+  font-weight: 400;
+  color: #858181;
+  font-size: 0.9rem;
 }
