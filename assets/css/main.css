@@ -7,17 +7,22 @@
   font-size: 3rem;
 }
 
-.bullets-points {
-  color: #275ce2;
+.bullet-points {
+  color: #3899d1f1;
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   display: flex;
   justify-content: center;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.8rem;
+}
+
+.bullet-points div {
+  font-family: 'Open Sans', sans-serif;
 }
 
 .bullet {
   margin: 0 1.5% 0 1.5%;
+  font-weight: 500;
 }
 
 .contact {
@@ -25,21 +30,36 @@
   justify-content: center;
 }
 
+.contact img {
+  margin: 0 5px 0 5px;
+}
+
+.contact div {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.85rem;
+}
+
 .seperator {
-  margin: 0 1.5% 0 1.5%;
+  margin: 0 1% 0 1%;
   font-weight: 800;
+}
+
+.about-me {
+  margin-left: 15%;
 }
 
 .header {
   color: #275ce2;
   font-family: 'Lato', sans-serif;
   font-size: 2rem;
+  margin: 2% 0 2% 0;
 }
 
 .header > span {
   position: relative;
   display: inline-block;
 }
+
 .header > span:after {
   content: '';
   position: absolute;
@@ -47,11 +67,6 @@
   width: 9999px;
   height: 2px;
   background: rgba(65, 63, 63, 0.6);
-}
-
-.header > span:before {
-  right: 100%;
-  margin-right: 15px;
 }
 
 .header > span:after {
