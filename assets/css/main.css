@@ -1,0 +1,198 @@
+.wrapper {
+  width: 2500px;
+  min-width: 2500px;
+}
+
+.profile-picture {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.profile {
+  border-radius: 50%;
+}
+
+.name {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 3.5rem;
+}
+
+.bullet-points {
+  color: #4f81bd;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0.6rem;
+}
+
+.bullet-points div {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.bullet {
+  margin: 0 1% 0 1%;
+  font-weight: 500;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  min-width: 920px;
+}
+
+.contact img {
+  margin-right: 5px;
+}
+
+.seperator {
+  margin-left: 6px;
+  margin-right: 6px;
+}
+
+.contact div {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.65rem;
+}
+
+.section {
+  margin-left: 7%;
+  margin-right: 5%;
+}
+
+.header {
+  color: #4f81bd;
+  font-family: 'Lato', sans-serif;
+  font-size: 2rem;
+  margin: 1% 0 1% 0;
+}
+
+.header > span {
+  position: relative;
+  display: inline-block;
+}
+
+.header > span:after {
+  content: '';
+  position: absolute;
+  top: 75%;
+  width: 630px;
+  height: 2px;
+  background: rgba(65, 63, 63, 0.6);
+}
+
+.header-two > span:after {
+  width: 615px;
+}
+
+.header > span:after {
+  left: 100%;
+  margin-left: 25px;
+}
+
+.skills {
+  display: flex;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.skill-header {
+  color: #000000;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.1rem;
+  text-align: right;
+  width: 8.8rem;
+}
+
+.skill-list {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  color: black;
+  font-weight: 550;
+}
+
+.first {
+  margin-left: 1.5rem;
+}
+
+.second {
+  margin-left: 1.6rem;
+}
+
+.third {
+  margin-left: 1.55rem;
+}
+
+.fourth {
+  margin-left: 1.6rem;
+}
+
+.fifth {
+  margin-left: 1.6rem;
+}
+
+.first-skill {
+  margin-right: 5px;
+}
+
+.skill {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.skill-bullet {
+  font-weight: 400;
+  color: #858181;
+  font-size: 0.9rem;
+}
+
+.experience-header {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+
+.experience-place {
+  color: #000000;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.place {
+  color: #4f81bd;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 800;
+  font-size: 0.9rem;
+}
+
+.experience-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.experience-job {
+  color: #474747f1;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  display: flex;
+  margin-bottom: 0.5rem;
+  font-size: 0.8rem;
+  font-variant: small-caps;
+}
+
+.experience-bullets {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.8rem;
+  display: flex;
+  flex-direction: column;
+}
