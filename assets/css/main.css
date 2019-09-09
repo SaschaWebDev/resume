@@ -78,13 +78,13 @@
   content: '';
   position: absolute;
   top: 75%;
-  width: 620px;
+  width: 630px;
   height: 2px;
   background: rgba(65, 63, 63, 0.6);
 }
 
 .header-two > span:after {
-  width: 605px;
+  width: 615px;
 }
 
 .header > span:after {
@@ -166,7 +166,6 @@
 
 .place {
   color: #4f81bd;
-  font-style: italic;
   font-family: 'Roboto', sans-serif;
   font-weight: 800;
   font-size: 0.9rem;
