@@ -6,7 +6,7 @@
 .profile-picture {
   display: flex;
   justify-content: center;
-  margin-top: 3rem;
+  margin-top: 2rem;
 }
 
 .profile {
@@ -90,6 +90,14 @@
 .header > span:after {
   left: 100%;
   margin-left: 25px;
+}
+
+.bio {
+  color: #4f81bd;
+  text-align: center;
+  font-size: 1.3rem;
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 1.2rem;
 }
 
 .skills {
