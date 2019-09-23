@@ -1,16 +1,24 @@
 .wrapper {
-  width: 2500px;
-  min-width: 2500px;
+  width: 100vw;
+  margin-left: 20vw !important;
+  padding-left: 20vw !important;
+  margin-right: 20vw !important;
+  padding-right: 20vw !important;
 }
 
 .profile-picture {
   display: flex;
   justify-content: center;
-  margin-top: 2rem;
+  margin-top: 1.2rem;
+}
+
+.profile-picture {
+  height: 8.5rem;
 }
 
 .profile {
   border-radius: 50%;
+  transform: scale(0.8);
 }
 
 .name {
@@ -41,6 +49,7 @@
   display: flex;
   justify-content: center;
   min-width: 920px;
+  margin-bottom: 1rem;
 }
 
 .contact img {
@@ -54,18 +63,19 @@
 
 .contact div {
   font-family: 'Open Sans', sans-serif;
-  font-size: 0.65rem;
+  font-size: 0.86rem;
 }
 
 .section {
   margin-left: 7%;
   margin-right: 5%;
+  margin-top: 1rem;
 }
 
 .header {
   color: #4f81bd;
   font-family: 'Lato', sans-serif;
-  font-size: 2rem;
+  font-size: 1.8rem;
   margin: 1% 0 1% 0;
 }
 
@@ -78,19 +88,32 @@
   content: '';
   position: absolute;
   top: 75%;
-  width: 630px;
+  /*   width: 630px; */
   height: 2px;
   background: rgba(65, 63, 63, 0.6);
 }
 
+/* Current Width: 1489px */
+
+/* .header-skill > span:after {
+  width: 100%;
+}
+
+.header-projects > span:after {
+  width: 100vw;
+}
+
 .header-two > span:after {
-  width: 615px;
+  width: 100vw;
+}
+
+.header-education > span:after {
+  width: 105vw;
 }
 
 .header > span:after {
-  left: 100%;
   margin-left: 25px;
-}
+} */
 
 .bio {
   color: #4f81bd;
@@ -159,7 +182,7 @@
 .experience-header {
   display: flex;
   flex-direction: column;
-  margin-top: 1rem;
+  margin-top: 0.6rem;
 }
 
 .experience-place {
@@ -203,4 +226,14 @@
   font-size: 0.8rem;
   display: flex;
   flex-direction: column;
+}
+
+.link {
+  text-decoration: none;
+  color: #474747f1;
+}
+
+.link-right {
+  text-decoration: none;
+  color: #4f81bd;
 }
